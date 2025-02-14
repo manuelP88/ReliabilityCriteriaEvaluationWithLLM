@@ -1,0 +1,460 @@
+art_id,criteriaID,human_annotation,human_annotation2,gpt_annotation,expost_groundtruth,to_annotate,human_annotation_verbose,human_annotation2_verbose,gpt_annotation_verbose,borderline,motivation
+2,ArtBias,2,3,2,,False,Abbastanza di parte,Abbastanza imparziale,Abbastanza di parte,False,
+2,HeadAcc1,4,3,3,,False,Accurato,Abbastanza accurato,Abbastanza accurato,False,
+2,SensLang,3,2,2,,False,Abbastanza neutro,Abbastanza sensazionale,Abbastanza sensazionale,False,
+4,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+4,LedePres,2,1,2,,True,Si,No,Si,False,
+4,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+9,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+9,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+9,NegTarg1,2,1,1,,True,Si,No,No,False,LLM CORRECT
+10,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+10,NegTarg2,[],['4'],['4'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+10,NegTarg1,2,1,1,,True,Si,No,No,False,LLM CORRECT
+11,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+12,Type,3,2,1,,True,Inchiesta,Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+12,LedePres,2,1,1,,True,Si,No,No,False,
+13,LedePres,1,2,2,,True,No,Si,Si,False,
+13,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+14,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+15,SensLang,3,2,1,,False,Abbastanza neutro,Abbastanza sensazionale,Sensazionale,False,
+16,HeadAcc1,4,1,4,4.0,True,Accurato,Non accurato,Accurato,False,
+16,LedePres,2,1,2,,True,Si,No,Si,False,
+18,LedePres,2,1,1,,True,Si,No,No,False,
+18,ArtBias,4,3,4,,False,Imparziale,Abbastanza imparziale,Imparziale,False,
+18,HeadAcc1,4,3,3,,False,Accurato,Abbastanza accurato,Abbastanza accurato,False,
+19,NegTarg2,[],['1'],['4'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+19,HeadAcc1,2,3,4,,False,Abbastanza inaccurato,Abbastanza accurato,Accurato,False,
+19,SensLang,3,2,3,,False,Abbastanza neutro,Abbastanza sensazionale,Abbastanza neutro,False,
+20,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+20,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+20,NegTarg2,[],['2'],['-1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+20,LedePres,2,1,2,,True,Si,No,Si,False,
+22,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+22,NegTarg2,[],['1'],['-1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+23,Type,3,1,1,,True,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+23,LedePres,1,2,2,,True,No,Si,Si,False,
+23,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+24,LedePres,2,1,2,,True,Si,No,Si,False,
+24,ArtBias,4,3,2,,False,Imparziale,Abbastanza imparziale,Abbastanza di parte,False,
+25,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+25,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+27,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+27,SensLang,4,3,4,,False,Neutro,Abbastanza neutro,Neutro,False,
+28,HeadAcc1,3,2,4,,False,Abbastanza accurato,Abbastanza inaccurato,Accurato,False,
+28,NegTarg2,['4'],['2'],['2'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+29,LedePres,2,1,2,,True,Si,No,Si,False,
+30,ArtBias,4,3,4,,False,Imparziale,Abbastanza imparziale,Imparziale,False,
+31,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+33,LedePres,2,1,1,,True,Si,No,No,False,
+34,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+34,LedePres,2,1,1,,True,Si,No,No,False,
+36,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+36,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+36,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+36,Type,5,1,5,,True,Notizia di costume o cronaca rosa,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Notizia di costume o cronaca rosa,False,
+37,ArtBias,4,2,3,3.0,True,Imparziale,Abbastanza di parte,Abbastanza imparziale,False,llm assegna un bias che è la media delle due valutazioni
+37,SensLang,4,1,2,2.0,True,Neutro,Sensazionale,Abbastanza sensazionale,False,Le dichiarazioni forti e le risposte pungenti sono riportate in modo da attirare l'attenzione del lettore e suscitare emozioni.
+37,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+37,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+37,NegTarg1,2,1,1,,True,Si,No,No,False,LLM INCORRECT
+38,LedePres,2,1,2,,True,Si,No,Si,False,
+39,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+41,NegTarg1,1,2,1,,True,No,Si,No,False,LLM INCORRECT
+41,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+41,NegTarg2,[],['4'],['2'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+42,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+42,SensLang,3,2,2,,False,Abbastanza neutro,Abbastanza sensazionale,Abbastanza sensazionale,False,
+44,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+46,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+46,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+49,NegTarg2,['4'],[],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+50,LedePres,1,2,1,,True,No,Si,No,False,
+51,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+52,LedePres,1,2,1,,True,No,Si,No,False,
+54,Type,4,3,3,,True,Satira,Inchiesta,Inchiesta,False,
+54,LedePres,2,1,1,,True,Si,No,No,False,
+55,ArtBias,3,4,4,,False,Abbastanza imparziale,Imparziale,Imparziale,False,
+55,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+55,LedePres,2,1,2,,True,Si,No,Si,False,
+57,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+59,SensLang,3,2,3,,False,Abbastanza neutro,Abbastanza sensazionale,Abbastanza neutro,False,
+59,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+61,ArtBias,4,3,4,,False,Imparziale,Abbastanza imparziale,Imparziale,False,
+61,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+62,Type,5,2,2,,True,Notizia di costume o cronaca rosa,Editoriale o opinione,Editoriale o opinione,False,
+62,SensLang,4,3,4,,False,Neutro,Abbastanza neutro,Neutro,False,
+62,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+65,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+65,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+66,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+66,LedePres,2,1,1,,True,Si,No,No,False,
+67,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+67,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+68,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+68,Type,2,1,1,,True,Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+68,ArtBias,3,2,1,,False,Abbastanza imparziale,Abbastanza di parte,Di parte,False,
+69,NegTarg1,2,1,1,,True,Si,No,No,False,LLM CORRECT
+69,LedePres,2,1,2,,True,Si,No,Si,False,
+69,NegTarg2,[],['4'],['4'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+70,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+71,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+74,NegTarg2,[],['2'],['-1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+75,SensLang,4,3,2,,False,Neutro,Abbastanza neutro,Abbastanza sensazionale,False,
+75,Type,2,1,1,,True,Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+75,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+75,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+75,LedePres,2,1,1,,True,Si,No,No,False,
+77,HeadAcc1,3,2,4,,False,Abbastanza accurato,Abbastanza inaccurato,Accurato,False,
+77,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+78,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+78,ArtBias,4,3,4,,False,Imparziale,Abbastanza imparziale,Imparziale,False,
+79,LedePres,2,1,2,,True,Si,No,Si,False,
+80,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+80,LedePres,2,1,1,,True,Si,No,No,False,
+81,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+82,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+83,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+84,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+85,SensLang,4,2,3,2.0,True,Neutro,Abbastanza sensazionale,Abbastanza neutro,False,
+86,LedePres,2,1,2,,True,Si,No,Si,False,
+86,HeadAcc1,4,2,4,2.0,True,Accurato,Abbastanza inaccurato,Accurato,False,sarebbe potuto essere più completo (si parla anche di alcuni dati EU non mensionati nel titolo)
+87,Type,3,1,1,,True,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+87,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+89,LedePres,2,1,1,,True,Si,No,No,False,
+92,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+92,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+93,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+93,ArtBias,2,1,1,,False,Abbastanza di parte,Di parte,Di parte,False,
+94,Type,2,1,2,,True,Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Editoriale o opinione,False,
+94,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+100,HeadAcc1,3,2,4,,False,Abbastanza accurato,Abbastanza inaccurato,Accurato,False,
+101,HeadAcc1,4,3,3,,False,Accurato,Abbastanza accurato,Abbastanza accurato,False,
+101,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+101,SensLang,4,2,2,2.0,True,Neutro,Abbastanza sensazionale,Abbastanza sensazionale,False,"linguaggio emotivo e drammatico per descrivere gli eventi, come ""letteralmente travolto e distrutto dal caldo"", ""cupola di afa mortale"", e ""inghiottito gli edifici in pochissimo tempo"". Questi termini enfatizzano l'impatto devastante dell'incendio e del caldo"
+103,SensLang,3,2,2,,False,Abbastanza neutro,Abbastanza sensazionale,Abbastanza sensazionale,False,
+103,HeadAcc1,2,3,4,,False,Abbastanza inaccurato,Abbastanza accurato,Accurato,False,
+103,Type,2,1,1,,True,Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+105,LedePres,2,1,1,,True,Si,No,No,False,
+106,ArtBias,4,3,4,,False,Imparziale,Abbastanza imparziale,Imparziale,False,
+106,LedePres,2,1,2,,True,Si,No,Si,False,
+109,LedePres,2,1,2,,True,Si,No,Si,False,
+111,LedePres,2,1,2,,True,Si,No,Si,False,
+111,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+111,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+113,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+116,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+117,LedePres,2,1,2,,True,Si,No,Si,False,
+119,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+119,LedePres,2,1,2,,True,Si,No,Si,False,
+120,LedePres,2,1,2,,True,Si,No,Si,False,
+122,Type,1,5,5,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Notizia di costume o cronaca rosa,Notizia di costume o cronaca rosa,False,
+122,SensLang,4,2,2,2.0,True,Neutro,Abbastanza sensazionale,Abbastanza sensazionale,False,"linguaggio emotivo e drammatico per descrivere la lite tra Giancarlo Magalli e Adriana Volpe, paragonandola a una soap opera (""Beautiful casareccio"") e sottolineando la natura continua e accesa del conflitto"
+122,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+123,LedePres,2,1,2,,True,Si,No,Si,False,
+123,ArtBias,4,3,4,,False,Imparziale,Abbastanza imparziale,Imparziale,False,
+126,Type,3,5,5,,True,Inchiesta,Notizia di costume o cronaca rosa,Notizia di costume o cronaca rosa,False,
+126,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+126,NegTarg2,['4'],[],['2'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+126,SensLang,3,4,2,,False,Abbastanza neutro,Neutro,Abbastanza sensazionale,False,
+126,NegTarg1,2,1,1,,True,Si,No,No,False,LLM CORRECT
+128,Type,3,2,2,,True,Inchiesta,Editoriale o opinione,Editoriale o opinione,False,
+128,NegTarg2,[],['4'],['2'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+128,SensLang,4,3,2,,False,Neutro,Abbastanza neutro,Abbastanza sensazionale,False,
+128,NegTarg1,2,1,1,,True,Si,No,No,False,LLM INCORRECT
+128,HeadAcc1,3,2,4,,False,Abbastanza accurato,Abbastanza inaccurato,Accurato,False,
+131,LedePres,2,1,2,,True,Si,No,Si,False,
+131,NegTarg2,"['4', '3']",['3'],['3'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+131,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+132,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+134,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+134,NegTarg1,2,1,1,,True,Si,No,No,False,LLM INCORRECT
+134,NegTarg2,[],['4'],['-1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+135,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+135,LedePres,2,1,2,,True,Si,No,Si,False,
+137,Type,3,1,1,,True,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+137,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+140,NegTarg1,2,1,2,,True,Si,No,Si,False,LLM CORRECT
+140,NegTarg2,[],['4'],"['1', '2']",,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+140,SensLang,4,3,2,,False,Neutro,Abbastanza neutro,Abbastanza sensazionale,False,
+140,LedePres,2,1,1,,True,Si,No,No,False,
+141,NegTarg1,2,1,1,,True,Si,No,No,False,LLM INCORRECT
+141,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+141,LedePres,2,1,1,,True,Si,No,No,False,
+141,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+142,NegTarg2,[],['4'],"['1', '2']",,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+142,ArtBias,2,3,2,,False,Abbastanza di parte,Abbastanza imparziale,Abbastanza di parte,False,
+142,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+142,LedePres,2,1,1,,True,Si,No,No,False,
+142,SensLang,4,3,2,,False,Neutro,Abbastanza neutro,Abbastanza sensazionale,False,
+142,NegTarg1,2,1,1,,True,Si,No,No,False,LLM CORRECT
+145,LedePres,1,2,2,,True,No,Si,Si,False,
+146,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+148,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+149,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+149,SensLang,3,1,3,3.0,True,Abbastanza neutro,Sensazionale,Abbastanza neutro,False,"l'uso di termini come ""clamoroso dirottamento di Stato"" e ""pugno sempre più duro del regime"" aggiunge un leggero tono sensazionale"
+150,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+150,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+151,SensLang,4,3,2,,False,Neutro,Abbastanza neutro,Abbastanza sensazionale,False,
+154,HeadAcc1,4,3,3,,False,Accurato,Abbastanza accurato,Abbastanza accurato,False,
+154,ArtBias,3,4,2,,False,Abbastanza imparziale,Imparziale,Abbastanza di parte,False,
+155,NegTarg2,[],['4'],['4'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+155,ArtBias,3,2,3,,False,Abbastanza imparziale,Abbastanza di parte,Abbastanza imparziale,False,
+155,NegTarg1,2,1,2,,True,Si,No,Si,False,LLM CORRECT
+158,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+159,LedePres,1,2,1,,True,No,Si,No,False,
+160,LedePres,1,2,2,,True,No,Si,Si,False,
+160,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+160,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+163,ArtBias,3,4,4,,False,Abbastanza imparziale,Imparziale,Imparziale,False,
+164,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+164,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+164,Type,1,3,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+166,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+168,LedePres,1,2,2,,True,No,Si,Si,False,
+169,NegTarg2,['4'],[],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+169,LedePres,2,1,2,,True,Si,No,Si,False,
+169,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+173,Type,1,2,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+173,LedePres,1,2,1,,True,No,Si,No,False,
+173,NegTarg1,1,2,1,,True,No,Si,No,False,LLM CORRECT
+173,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+174,NegTarg1,1,2,1,,True,No,Si,No,False,LLM CORRECT
+176,HeadAcc1,2,4,3,3.0,True,Abbastanza inaccurato,Accurato,Abbastanza accurato,False,valore medio resonable
+176,LedePres,2,1,1,,True,Si,No,No,False,
+177,LedePres,2,1,2,,True,Si,No,Si,False,
+177,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+180,LedePres,1,2,2,,True,No,Si,Si,False,
+182,ArtBias,2,3,1,,False,Abbastanza di parte,Abbastanza imparziale,Di parte,False,
+182,Type,2,1,1,,True,Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+182,LedePres,2,1,1,,True,Si,No,No,False,
+183,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+183,NegTarg1,1,2,1,,True,No,Si,No,False,LLM CORRECT
+184,LedePres,2,1,1,,True,Si,No,No,False,
+184,Type,1,3,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+185,NegTarg2,['4'],[],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+185,SensLang,2,1,2,,False,Abbastanza sensazionale,Sensazionale,Abbastanza sensazionale,False,
+185,NegTarg1,1,2,2,,True,No,Si,Si,False,LLM INCORRECT
+185,ArtBias,1,2,1,,False,Di parte,Abbastanza di parte,Di parte,False,
+186,LedePres,1,2,1,,True,No,Si,No,False,
+186,NegTarg2,['4'],[],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+188,LedePres,2,1,1,,True,Si,No,No,False,
+192,HeadAcc1,4,2,3,3.0,True,Accurato,Abbastanza inaccurato,Abbastanza accurato,False,valore medio resonable
+192,ArtBias,1,3,1,1.0,True,Di parte,Abbastanza imparziale,Di parte,False,sembra di parte 
+195,Type,1,3,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+196,ArtBias,2,3,1,,False,Abbastanza di parte,Abbastanza imparziale,Di parte,False,
+198,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+198,NegTarg1,2,1,2,,True,Si,No,Si,False,LLM CORRECT
+199,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+199,Type,3,1,1,,True,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+199,HeadAcc1,2,3,4,,False,Abbastanza inaccurato,Abbastanza accurato,Accurato,False,
+201,LedePres,1,2,2,,True,No,Si,Si,False,
+201,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+203,NegTarg2,['3'],[],"['1', '3']",,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+203,NegTarg1,1,2,1,,True,No,Si,No,False,LLM CORRECT
+204,Type,2,1,1,,True,Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+204,LedePres,1,2,1,,True,No,Si,No,False,
+207,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+207,Type,3,2,1,,True,Inchiesta,Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+208,Type,2,3,1,,True,Editoriale o opinione,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+208,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+209,LedePres,1,2,1,,True,No,Si,No,False,
+209,ArtBias,2,3,2,,False,Abbastanza di parte,Abbastanza imparziale,Abbastanza di parte,False,
+209,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+210,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+210,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+210,NegTarg1,1,2,2,,True,No,Si,Si,False,LLM CORRECT
+212,LedePres,1,2,1,,True,No,Si,No,False,
+213,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+213,ArtBias,3,2,3,,False,Abbastanza imparziale,Abbastanza di parte,Abbastanza imparziale,False,
+213,SensLang,4,3,2,,False,Neutro,Abbastanza neutro,Abbastanza sensazionale,False,
+214,Type,1,3,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+214,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+215,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+216,Type,2,3,1,,True,Editoriale o opinione,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+217,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+217,LedePres,1,2,2,,True,No,Si,Si,False,
+217,Type,3,1,1,,True,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+218,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+219,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+219,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+220,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+220,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+221,HeadAcc1,4,2,4,4.0,True,Accurato,Abbastanza inaccurato,Accurato,False,valore medio resonable
+221,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+222,LedePres,2,1,2,,True,Si,No,Si,False,
+222,ArtBias,3,2,3,,False,Abbastanza imparziale,Abbastanza di parte,Abbastanza imparziale,False,
+222,HeadAcc1,4,2,3,3.0,True,Accurato,Abbastanza inaccurato,Abbastanza accurato,False,"abbastanza accurato, mi aspettavo qualcosa su tokyo e giochi nel testo"
+223,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+223,LedePres,1,2,2,,True,No,Si,Si,False,
+225,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+225,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+226,NegTarg2,[],['4'],['3'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+226,ArtBias,2,3,3,,False,Abbastanza di parte,Abbastanza imparziale,Abbastanza imparziale,False,
+226,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+227,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+228,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+229,NegTarg1,2,1,1,,True,Si,No,No,False,LLM INCORRECT
+229,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+229,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+229,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+230,LedePres,2,1,2,,True,Si,No,Si,False,
+232,Type,2,3,1,,True,Editoriale o opinione,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+233,LedePres,2,1,1,,True,Si,No,No,False,
+234,Type,3,1,1,,True,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+235,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+235,LedePres,2,1,2,,True,Si,No,Si,False,
+235,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+235,SensLang,3,2,3,,False,Abbastanza neutro,Abbastanza sensazionale,Abbastanza neutro,False,
+237,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+237,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+237,LedePres,2,1,2,,True,Si,No,Si,False,
+237,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+238,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+240,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+241,Type,5,1,1,,True,Notizia di costume o cronaca rosa,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale","Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+242,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+242,ArtBias,4,3,2,,False,Imparziale,Abbastanza imparziale,Abbastanza di parte,False,
+242,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+242,NegTarg1,2,1,1,,True,Si,No,No,False,LLM INCORRECT
+243,NegTarg2,[],['1'],['-1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+244,HeadAcc1,3,2,4,,False,Abbastanza accurato,Abbastanza inaccurato,Accurato,False,
+244,NegTarg2,['4'],[],['4'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+244,ArtBias,4,3,2,,False,Imparziale,Abbastanza imparziale,Abbastanza di parte,False,
+244,NegTarg1,1,2,1,,True,No,Si,No,False,LLM INCORRECT
+245,HeadAcc1,2,3,4,,False,Abbastanza inaccurato,Abbastanza accurato,Accurato,False,
+245,ArtBias,3,2,2,,False,Abbastanza imparziale,Abbastanza di parte,Abbastanza di parte,False,
+245,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+245,NegTarg1,2,1,1,,True,Si,No,No,False,LLM CORRECT
+245,SensLang,3,2,3,,False,Abbastanza neutro,Abbastanza sensazionale,Abbastanza neutro,False,
+246,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+246,Type,2,3,1,,True,Editoriale o opinione,Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+246,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+246,HeadAcc1,4,3,4,,False,Accurato,Abbastanza accurato,Accurato,False,
+248,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+249,HeadAcc1,3,2,4,,False,Abbastanza accurato,Abbastanza inaccurato,Accurato,False,
+251,Type,3,2,2,,True,Inchiesta,Editoriale o opinione,Editoriale o opinione,False,
+254,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+256,HeadAcc1,2,3,4,,False,Abbastanza inaccurato,Abbastanza accurato,Accurato,False,
+256,SensLang,2,3,3,,False,Abbastanza sensazionale,Abbastanza neutro,Abbastanza neutro,False,
+257,LedePres,2,1,2,,True,Si,No,Si,False,
+257,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+259,LedePres,1,2,2,,True,No,Si,Si,False,
+259,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+261,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+261,LedePres,1,2,2,,True,No,Si,Si,False,
+261,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+262,LedePres,1,2,1,,True,No,Si,No,False,
+265,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+266,NegTarg2,['4'],[],['4'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+266,ArtBias,2,3,2,,False,Abbastanza di parte,Abbastanza imparziale,Abbastanza di parte,False,
+266,NegTarg1,2,1,1,,True,Si,No,No,False,LLM INCORRECT
+267,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+267,ArtBias,3,2,1,,False,Abbastanza imparziale,Abbastanza di parte,Di parte,False,
+267,NegTarg2,"['4', '3']",['4'],"['1', '4']",,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+268,HeadAcc1,3,2,3,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza accurato,False,
+273,NegTarg2,[],['2'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+275,LedePres,1,2,1,,True,No,Si,No,False,
+276,HeadAcc1,1,3,4,2.0,True,Non accurato,Abbastanza accurato,Accurato,False,
+277,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+277,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+280,LedePres,1,2,2,,True,No,Si,Si,False,
+281,HeadAcc1,2,4,4,4.0,True,Abbastanza inaccurato,Accurato,Accurato,False,
+282,ArtBias,2,3,2,,False,Abbastanza di parte,Abbastanza imparziale,Abbastanza di parte,False,
+282,NegTarg2,[],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+282,HeadAcc1,2,4,4,4.0,True,Abbastanza inaccurato,Accurato,Accurato,False,
+282,NegTarg1,1,2,1,,True,No,Si,No,False,LLM INCORRECT
+283,LedePres,1,2,1,,True,No,Si,No,False,
+283,Type,1,2,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+283,SensLang,2,3,2,,False,Abbastanza sensazionale,Abbastanza neutro,Abbastanza sensazionale,False,
+284,LedePres,1,2,2,,True,No,Si,Si,False,
+284,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+286,NegTarg1,2,1,1,,True,Si,No,No,False,LLM CORRECT
+286,NegTarg2,[],['4'],['2'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+287,ArtBias,1,2,1,,False,Di parte,Abbastanza di parte,Di parte,False,
+289,LedePres,1,2,2,,True,No,Si,Si,False,
+289,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+290,SensLang,2,4,3,4.0,True,Abbastanza sensazionale,Neutro,Abbastanza neutro,False,
+290,LedePres,1,2,1,,True,No,Si,No,False,
+290,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+291,Type,1,3,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+291,SensLang,3,4,2,,False,Abbastanza neutro,Neutro,Abbastanza sensazionale,False,
+293,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+294,LedePres,1,2,2,,True,No,Si,Si,False,
+294,Type,1,5,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Notizia di costume o cronaca rosa,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+295,HeadAcc1,1,2,2,,False,Non accurato,Abbastanza inaccurato,Abbastanza inaccurato,False,
+295,ArtBias,2,4,2,2.0,True,Abbastanza di parte,Imparziale,Abbastanza di parte,False,abbastanza di parte specialmente nel titolo
+295,SensLang,2,4,2,4.0,True,Abbastanza sensazionale,Neutro,Abbastanza sensazionale,False,
+295,NegTarg2,['3'],"['4', '3']",['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+296,SensLang,4,3,3,,False,Neutro,Abbastanza neutro,Abbastanza neutro,False,
+297,NegTarg2,['4'],[],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+298,SensLang,1,4,4,4.0,True,Sensazionale,Neutro,Neutro,False,
+300,SensLang,2,4,3,3.0,True,Abbastanza sensazionale,Neutro,Abbastanza neutro,False,
+300,HeadAcc1,1,2,2,,False,Non accurato,Abbastanza inaccurato,Abbastanza inaccurato,False,
+301,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+301,Type,1,3,3,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Inchiesta,Inchiesta,False,
+304,Type,1,2,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+304,NegTarg2,"['2', '4']",['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+304,HeadAcc1,2,4,3,3.0,True,Abbastanza inaccurato,Accurato,Abbastanza accurato,False,
+306,LedePres,1,2,1,,True,No,Si,No,False,
+306,SensLang,3,4,4,,False,Abbastanza neutro,Neutro,Neutro,False,
+306,ArtBias,3,4,4,,False,Abbastanza imparziale,Imparziale,Imparziale,False,
+307,SensLang,2,3,2,,False,Abbastanza sensazionale,Abbastanza neutro,Abbastanza sensazionale,False,
+307,HeadAcc1,2,3,4,,False,Abbastanza inaccurato,Abbastanza accurato,Accurato,False,
+308,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+311,ArtBias,3,4,2,,False,Abbastanza imparziale,Imparziale,Abbastanza di parte,False,
+311,HeadAcc1,3,2,2,,False,Abbastanza accurato,Abbastanza inaccurato,Abbastanza inaccurato,False,
+311,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+312,ArtBias,2,3,3,,False,Abbastanza di parte,Abbastanza imparziale,Abbastanza imparziale,False,
+313,ArtBias,2,1,1,,False,Abbastanza di parte,Di parte,Di parte,False,
+314,LedePres,1,2,1,,True,No,Si,No,False,
+317,NegTarg2,['4'],[],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+317,Type,1,2,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Editoriale o opinione,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+317,SensLang,3,4,2,,False,Abbastanza neutro,Neutro,Abbastanza sensazionale,False,
+319,LedePres,1,2,2,,True,No,Si,Si,False,
+319,NegTarg1,1,2,1,,True,No,Si,No,False,LLM CORRECT
+319,NegTarg2,['4'],[],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+320,LedePres,1,2,2,,True,No,Si,Si,False,
+321,HeadAcc1,3,2,4,,False,Abbastanza accurato,Abbastanza inaccurato,Accurato,False,
+324,HeadAcc1,2,4,3,3.0,True,Abbastanza inaccurato,Accurato,Abbastanza accurato,False,
+324,NegTarg1,1,2,2,,True,No,Si,Si,False,LLM CORRECT
+324,SensLang,1,2,1,,False,Sensazionale,Abbastanza sensazionale,Sensazionale,False,
+324,ArtBias,1,2,1,,False,Di parte,Abbastanza di parte,Di parte,False,
+326,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+327,NegTarg2,['2'],['4'],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM INCORRECT
+328,LedePres,2,1,2,,True,Si,No,Si,False,
+328,Type,1,5,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Notizia di costume o cronaca rosa,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+330,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+330,LedePres,1,2,2,,True,No,Si,Si,False,
+331,ArtBias,2,3,1,,False,Abbastanza di parte,Abbastanza imparziale,Di parte,False,
+335,ArtBias,4,3,3,,False,Imparziale,Abbastanza imparziale,Abbastanza imparziale,False,
+336,SensLang,4,2,3,4.0,True,Neutro,Abbastanza sensazionale,Abbastanza neutro,False,
+338,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+338,Type,1,3,1,,True,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",Inchiesta,"Notizia di cronaca, attualita’, notizia che riguarda il paese o notizia internazionale",False,
+339,SensLang,4,2,4,4.0,True,Neutro,Abbastanza sensazionale,Neutro,False,
+339,ArtBias,2,4,4,4.0,True,Abbastanza di parte,Imparziale,Imparziale,False,imparziale notizia abbastanza secca
+340,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+340,HeadAcc1,2,3,3,,False,Abbastanza inaccurato,Abbastanza accurato,Abbastanza accurato,False,
+340,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+341,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+341,LedePres,1,2,2,,True,No,Si,Si,False,
+342,LedePres,1,2,2,,True,No,Si,Si,False,
+342,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+343,LedePres,1,2,2,,True,No,Si,Si,False,
+344,HeadAcc1,3,4,4,,False,Abbastanza accurato,Accurato,Accurato,False,
+344,LedePres,1,2,2,,True,No,Si,Si,False,
+345,LedePres,2,1,1,,True,Si,No,No,False,
+345,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+345,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+345,NegTarg2,['4'],[],['1'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+345,NegTarg1,1,2,1,,True,No,Si,No,False,LLM INCORRECT
+345,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+346,HeadAcc1,4,3,3,,False,Accurato,Abbastanza accurato,Abbastanza accurato,False,
+346,SensLang,2,3,2,,False,Abbastanza sensazionale,Abbastanza neutro,Abbastanza sensazionale,False,
+350,NegTarg1,1,2,2,,True,No,Si,Si,False,LLM CORRECT
+350,LedePres,1,2,2,,True,No,Si,Si,False,
+350,SensLang,3,4,3,,False,Abbastanza neutro,Neutro,Abbastanza neutro,False,
+350,NegTarg2,['4'],[],['4'],,True,"{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}","{'1': 'Politica', '2': 'Gender', '3': 'Religione', '4': 'Altro'}",False,LLM CORRECT
+350,ArtBias,3,4,3,,False,Abbastanza imparziale,Imparziale,Abbastanza imparziale,False,
+351,HeadAcc1,3,4,3,,False,Abbastanza accurato,Accurato,Abbastanza accurato,False,
+351,LedePres,2,1,1,,True,Si,No,No,False,
