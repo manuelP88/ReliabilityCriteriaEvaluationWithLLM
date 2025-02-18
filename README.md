@@ -21,11 +21,11 @@ We assess agreement across **six reliability criteria**. In total we examine **6
 
 ### Criteria 
 
-- **Headline Accuracy**: Assesses the congruence between a headline and the corresponding article content.
-- **Lede Presence**: Checks for the presence of a factual summary at the beginning of an article.
-- **Negative Targeting**: Evaluates whether the article negatively targets specific individuals or institutions. Additionally, we examined a more granular aspect of this specific criterion by incorporating target identification, resulting in 1,011 additional annotations
-- **Article Bias**: Gauges the fairness and balance of the article's content.
-- **Sensational Language**: Identifies emotionally charged or exaggerated language that could mislead readers.
+- **Headline Accuracy** *(HeadAcc)*: Assesses the congruence between a headline and the corresponding article content.
+- **Lede Presence** *(Lede)*: Checks for the presence of a factual summary at the beginning of an article.
+- **Negative Targeting** *(NegTarg1)*: Evaluates whether the article negatively targets specific individuals or institutions. Additionally, we examined a more granular aspect of this specific criterion by incorporating target identification, resulting in 1,011 additional annotations  (see 'NegTarg2').
+- **Article Bias** *(ArtBias)*: Gauges the fairness and balance of the article's content.
+- **Sensational Language** *(SensLang)*: Identifies emotionally charged or exaggerated language that could mislead readers.
 
 ## Repository Contents
 
