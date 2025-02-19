@@ -11,7 +11,7 @@ This repository contains the necessary resources and scripts to reproduce the re
 In this study, we investigate the use of a large language model (LLM) to assist in evaluating the reliability of online news publishers. Given the impracticality of relying solely on human experts for large-scale assessments, we evaluate the LLM’s ability to classify news articles according to expert-designed reliability criteria and compare its responses to those of human annotators.
 
 Our dataset consists of **352 news articles**, annotated by **two human experts** and an **LLM-based annotator**. 
-We assess agreement across **six reliability criteria**. In total we examine **6,081 annotations** on six criteria; additionally, a more detailed version of one of these criteria is considered, contributing 1,011 additional annotations.
+We assess agreement across **six reliability criteria**. In total we examine **6,081 annotations** on six criteria; additionally, a more detailed version of one of these criteria (i.e., NegTarg) is considered, contributing 1,011 additional annotations.
 
 ### Key Findings:
 
